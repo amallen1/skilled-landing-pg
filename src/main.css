@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+button {
+  font-family: inherit;
+  line-height: 28px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding: 1rem;
+  background: linear-gradient(#fff, #f0f1ff);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.375rem;
+}
+.logo {
+  color: #13183f;
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+.start-btn {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5625rem 1.5rem 0.6875rem;
+  border-radius: 28px;
+  border: none;
+}
+.dark-blue {
+  background-color: #13183f;
+}
+.gradient-orange {
+  background: linear-gradient(#ff6f48, #f02aa6);
+}
+.gradient-blue {
+  background: linear-gradient(#4851ff, #f02aa6);
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #13183f;
+  margin-bottom: 1.625rem;
+}
+.text {
+  font-weight: 500;
+  color: #83869a;
+  margin-bottom: 1.5rem;
+  line-height: 26px;
+}
+.hero-img {
+  max-width: 100%;
+}
+.courses > div {
+  margin-bottom: 2.5rem;
+}
+.special {
+  background: linear-gradient(#ff6f48, #f02aa6);
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem 2rem;
+}
+.special p {
+  line-height: 32px;
+  padding-right: 2rem;
+}
+.card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 3.5rem 1.75rem 2rem;
+}
+.card .card-icon {
+  position: absolute;
+  top: -25px;
+}
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.start-link {
+  text-decoration: none;
+  color: #f74780;
+  font-weight: 700;
+  font-size: 1.125rem;
+}

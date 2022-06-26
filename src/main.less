@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// variables
+@dullBlue: #666ca3;
+@navyBlue: #13183f;
+@slateGray: #83869a;
+@hotPink: #f74780;
+@babyPink: #ffa7c3;
+@white: #ffffff;
+
+// gradient colors
+@orange: #ff6f48;
+@blue: #4851ff;
+@darkPink: #f02aa6;
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button {
+  font-family: inherit;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 1rem;
+  background: linear-gradient(#fff, #f0f1ff);
+}
+
+//header
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.375rem;
+}
+
+.logo {
+  color: @navyBlue;
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+// get started buttons
+.start-btn {
+  color: @white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5625rem 1.5rem 0.6875rem;
+  border-radius: 28px;
+  border: none;
+}
+
+.dark-blue {
+  background-color: @navyBlue;
+}
+
+.gradient-orange {
+  background: linear-gradient(@orange, @darkPink);
+}
+
+.gradient-blue {
+  background: linear-gradient(@blue, @darkPink);
+}
+
+// Hero section
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: @navyBlue;
+  margin-bottom: 1.625rem;
+}
+
+.text {
+  font-weight: 500;
+  color: @slateGray;
+  margin-bottom: 1.5rem;
+  line-height: 26px;
+}
+
+.hero-container {
+}
+.hero-img {
+  max-width: 100%;
+}
+
+// Courses section
+
+// using a mixin here
+.courses > div {
+  margin-bottom: 2.5rem;
+}
+
+.special {
+  .gradient-orange();
+  color: @white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem 2rem;
+
+  p {
+    line-height: 32px;
+    padding-right: 2rem;
+  }
+}
+
+.card {
+    position: relative;
+    background-color: @white;
+    border-radius: 10px;
+    padding: 3.5rem 1.75rem 2rem;
+
+    .card-icon {
+        position: absolute;
+        top: -25px;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+}
+
+.start-link {
+  text-decoration: none;
+  color: @hotPink;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
